@@ -243,3 +243,28 @@ nav div button{
 .ready-box {
     font-size: 16px;
 }
+
+
+/* Footer */
+footer {
+    background-color: #001931;
+    color: white;
+    padding: 60px 0 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 40px;
+}
+
+.footer-content{
+    padding: 120px 120px 80px 120px;
+}
+.copyright { text-align: center; 
+    margin-top: 20px; 
+    font-size: 16px; 
+    color: #FAFAFA;
+    line-height: 24px;
+     }
