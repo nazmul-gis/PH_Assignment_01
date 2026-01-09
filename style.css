@@ -62,7 +62,7 @@ nav div button{
 
 /* Banner Section */
 .banner {
-    background: linear-gradient(rgba(10, 25, 47, 0.85), rgba(10, 25, 47, 0.85)), url(./assets/Bookmarks.png);
+    background: url(./assets/Bookmarks.png);
     background-size: cover;
     background-position: center;
     color: white;
