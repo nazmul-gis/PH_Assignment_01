@@ -60,3 +60,55 @@ nav div button{
 
 }
 
+/* Banner Section */
+.banner {
+    background: url(./assets/hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.badge {
+    background-color: transparent;
+    border: 1px solid #ffffff;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 16px;
+    color: #469165;
+    font-weight: 500px;
+}
+
+.banner h1 {
+    font-size: 3.5rem;
+    margin: 20px 0;
+}
+
+.text-green { color: #30B868; }
+
+.banner p {
+    max-width: 700px;
+    margin: 0 auto 30px;
+    font-size: 18px;
+    line-height: 24px;
+    opacity: 0.9;
+}
+
+.btn-img{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 16px;
+
+}
+
+.btn-second{
+    padding: 11px 16px;
+    border: 1px solid white;
+    border-radius: 4px;
+    background-color: transparent;
+    color: #FFFFFF;
+    font-size: 16px;
+    font-weight: 600px;
+}
