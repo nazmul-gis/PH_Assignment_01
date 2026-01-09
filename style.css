@@ -33,8 +33,6 @@ body {
 }
 
 nav {
-    width: 100%;
-    max-width: 1600px;
     display: flex;
     justify-content:space-between;
     align-items: center;
@@ -60,4 +58,55 @@ nav .logo{
 nav div button{
     margin: 24px 120px 24px 0;
 
+}
+
+/* Banner Section */
+.banner {
+    background: linear-gradient(rgba(10, 25, 47, 0.85), rgba(10, 25, 47, 0.85)), url('assets/hero-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero-content{
+    width: 1360px;
+}
+
+.badge {
+    background: #FFFFFF;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    color: #469165;
+}
+
+.hero-content{
+    gap: 16px;
+}
+
+.text-green{
+    color: #30B868;
+}
+
+.btn-second{
+    border: 1px solid white;
+    border-radius: 4px;
+    color: #FFFFFF;
+    font-weight: 600px;
+    font-size: 16px;
+    padding: 12px 16px;
+    background-color: transparent;
+}
+
+h1{
+    opacity: 90%;
+    padding: 16px;
+}
+
+.banner p{
+   font-size: 18px;
+   padding: 16px;
 }
