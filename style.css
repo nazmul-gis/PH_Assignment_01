@@ -223,3 +223,23 @@ nav div button{
 .solution-text p{
     font-size: 16px;
 }
+
+/* Ready Section */
+.ready { 
+    padding: 2px 120px 120px 120px;
+ }
+
+.ready-box {
+    background-color: #F7F6F2;
+    text-align: center;
+    padding: 80px 40px 24px 40px;
+}
+
+.ready-box h2{
+    font-weight: 800px;
+    font-size: 40px;
+}
+
+.ready-box {
+    font-size: 16px;
+}
